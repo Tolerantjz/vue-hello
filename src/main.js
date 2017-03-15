@@ -4,5 +4,5 @@ import Collapsible from './collapsible.vue'
 
 new Vue({
   el: '#app',
-  render: h => h(Collapsible, {props: {title: 'title', content: 'content'}})
+  render: h => h(App) //Collapsible, {props: {title: 'title', content: 'content'}})
 })

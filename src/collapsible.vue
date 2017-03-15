@@ -25,6 +25,7 @@
     methods: {
       toggleContent(){
         this.contentVisible = !this.contentVisible
+        this.$emit('toggleContent')
       },
       setHeight(el, done){
         el.style.height = this.contentHeight
